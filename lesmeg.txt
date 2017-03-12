@@ -1,1 +1,3 @@
-docker build -t toregard/node-web-app .
+docker build -t -p 8081:3000 toregard/node-web-app .
+
+-p 8080:8080
